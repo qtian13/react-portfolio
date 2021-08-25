@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaRegFilePdf } from 'react-icons/fa';
 import '../../styles/style.css';
 
 const frontEndProficiencies = [
@@ -30,7 +31,7 @@ function Resume() {
         Resume
       </h1>
       <p>
-        Download my <a target="_blank" href="./assets/files/QiushuangTianResume.pdf">resume</a>
+        View and download my <a target="_blank" href="./assets/files/QiushuangTianResume.pdf"><FaRegFilePdf /> resume</a>
       </p>
       <h2>Frontend Proficiencies</h2>
       <ul>
