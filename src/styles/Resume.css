@@ -1,0 +1,13 @@
+h3, h4 {
+  color: var(--medium-grey);
+  margin-bottom: 10px;
+}
+
+h3 a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+.skills-section li {
+  color: var(--medium-grey);
+}

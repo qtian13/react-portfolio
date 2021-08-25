@@ -36,7 +36,11 @@ a:hover, .nav-link:hover, .nav-link.active:hover {
   color: var(--medium-grey);
 }
 
-h2 {
+h3 a:hover {
+  text-shadow: 2px 2px 5px var(--light-grey);
+}
+
+h2, h3 {
   margin-bottom: 1.5rem;
 }
 
