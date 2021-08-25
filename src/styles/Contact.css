@@ -1,0 +1,10 @@
+form {
+  width: 70%;
+  min-width: 400px;
+  color: var(--medium-grey);
+}
+
+form .btn {
+  color: var(--medium-grey);
+  background: var(--light-tuiquoise)
+}
