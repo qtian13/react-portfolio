@@ -1,6 +1,7 @@
 :root {
   --dark-grey: rgb(35, 36, 49);
-  --light-grey: rgba(35, 36, 49, 0.6);
+  --medium-grey: rgba(35, 36, 49, 0.8);
+  --light-grey: rgba(35, 36, 49, 0.3);
   --light-tuiquoise: rgba(187, 221, 207, 1);
   --dark-green: rgba(74, 96, 104, 0.9);
   --opacity-low: .5;
@@ -32,14 +33,14 @@ a, .navbar-brand, .nav-link.active {
 }
 
 a:hover, .nav-link:hover, .nav-link.active:hover {
-  color: var(--light-grey);
+  color: var(--medium-grey);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.navbar-collapse {
-  flex-grow: 0;
 }
