@@ -1,4 +1,6 @@
 import React from 'react';
+// import { FaProjectDiagram } from 'react-icons/fa';
+import Card from '../card/Card';
 
 const project1 = {
   id: "project1",
@@ -69,10 +71,12 @@ function Portfolio() {
       <h1>
         Portfolio
       </h1>
-      <div class="block-descr block-descr-box project-display">
-        {/* {projects.map((project) => {
-
-        })} */}
+      <div class="row block-descr block-descr-box project-display">
+        {projects.map((project) => (
+          <div className="col-12 col-md-6 my-3 px-2" style={{"height": "300px" }}>
+            <Card name={project.name} skills={project.skills} deployed={project.deployed} github={project.github} demo={project.demo}/>
+          </div>
+        ))}
       </div>
     </main>
   )
