@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail, validateInput } from '../../utils/helpers';
+import '../../styles/style.css';
 
 function Contact() {
   const [viewerName, setViewerName] = useState('');
@@ -52,7 +53,7 @@ function Contact() {
     }
   };
   return (
-    <main className="container">
+    <main className="container mt-5">
       <h1>
         Contact
       </h1>

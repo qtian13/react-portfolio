@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
+import '../styles/style.css';
 
 function HeaderBlock({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <header>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-    </div>
+    </header>
   )
 }
 

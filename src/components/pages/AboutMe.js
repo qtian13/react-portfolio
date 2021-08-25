@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../styles/style.css';
 import '../../styles/AboutMe.css';
 
 function AboutMe() {
   return (
-    <main className="container">
+    <main className="container mt-5">
       <h1>About Me</h1>
       <img id="profile-photo" src="./assets/images/profile.jpg" alt="profile" />
       <p>

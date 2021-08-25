@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import '../styles/style.css';
 
 function MainBlock() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -29,11 +31,12 @@ function MainBlock() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="wrapper">
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }

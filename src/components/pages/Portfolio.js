@@ -1,6 +1,7 @@
 import React from 'react';
 // import { FaProjectDiagram } from 'react-icons/fa';
 import Card from '../card/Card';
+import '../../styles/style.css';
 
 const project1 = {
   id: "project1",
@@ -13,47 +14,47 @@ const project1 = {
 
 const project2 = {
   id: "project2",
-  name: "CLOVE",
-  skills: "CSS/JavaScript/NodeJS/Express/Handlebars/Sequelize/Cloudinary/Heroku",
-  deployed: "https://still-reef-24172.herokuapp.com/",
-  github: "https://github.com/qtian13/CLOVE",
-  demo: "./assets/images/clove.png"
+  name: "Feed Your Boredom",
+  skills: "HTML/CSS/Bulma/JavaScript/jQuery/Openlayers",
+  deployed: "https://qtian13.github.io/FeedYourBoredom/",
+  github: "https://github.com/qtian13/FeedYourBoredom",
+  demo: "./assets/images/feedYourBoredom.png"
 };
 
 const project3 = {
   id: "project3",
-  name: "CLOVE",
-  skills: "CSS/JavaScript/NodeJS/Express/Handlebars/Sequelize/Cloudinary/Heroku",
-  deployed: "https://still-reef-24172.herokuapp.com/",
-  github: "https://github.com/qtian13/CLOVE",
-  demo: "./assets/images/clove.png"
+  name: "Workout Tracker",
+  skills: "CSS/JavaScript/NodeJS/MongoDB/Mongoose/Heroku",
+  deployed: "https://whispering-hamlet-60494.herokuapp.com/",
+  github: "https://github.com/qtian13/workout-tracker",
+  demo: "./assets/images/workoutTracker.png"
 };
 
 const project4 = {
   id: "project4",
-  name: "CLOVE",
-  skills: "CSS/JavaScript/NodeJS/Express/Handlebars/Sequelize/Cloudinary/Heroku",
-  deployed: "https://still-reef-24172.herokuapp.com/",
-  github: "https://github.com/qtian13/CLOVE",
-  demo: "./assets/images/clove.png"
+  name: "Weather Dashboard",
+  skills: "HTML/CSS/Bootstrap/JavaScript/jQuery",
+  deployed: "https://qtian13.github.io/Weather-Dashboard/",
+  github: "https://github.com/qtian13/Weather-Dashboard",
+  demo: "./assets/images/weatherDashboard.png"
 };
 
 const project5 = {
   id: "project5",
-  name: "CLOVE",
+  name: "Code Quiz",
   skills: "CSS/JavaScript/NodeJS/Express/Handlebars/Sequelize/Cloudinary/Heroku",
   deployed: "https://still-reef-24172.herokuapp.com/",
-  github: "https://github.com/qtian13/CLOVE",
-  demo: "./assets/images/clove.png"
+  github: "https://github.com/qtian13/code-quiz",
+  demo: "./assets/images/codeQuiz.png"
 };
 
 const project6 = {
   id: "project6",
-  name: "CLOVE",
-  skills: "CSS/JavaScript/NodeJS/Express/Handlebars/Sequelize/Cloudinary/Heroku",
-  deployed: "https://still-reef-24172.herokuapp.com/",
-  github: "https://github.com/qtian13/CLOVE",
-  demo: "./assets/images/clove.png"
+  name: "Password Generator",
+  skills: "HTML/CSS",
+  deployed: "https://qtian13.github.io/password-generator/",
+  github: "https://github.com/qtian13/password-generator",
+  demo: "./assets/images/passwordGenerator.png"
 };
 
 const projects = [
@@ -67,7 +68,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <main className="container">
+    <main className="container mt-5">
       <h1>
         Portfolio
       </h1>
