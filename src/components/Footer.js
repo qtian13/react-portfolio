@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaStackOverflow, FaCopyright } from 'react-icons/fa'
-import '../styles/style.css';
 
 function FooterBlock() {
     return (

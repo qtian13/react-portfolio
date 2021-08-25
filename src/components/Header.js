@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import '../styles/style.css';
+import '../styles/Header.css';
 
 function HeaderBlock({ currentPage, handlePageChange }) {
   return (

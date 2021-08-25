@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaRegFilePdf } from 'react-icons/fa';
-import '../../styles/style.css';
 
 const frontEndProficiencies = [
   'HTML',

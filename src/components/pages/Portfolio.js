@@ -1,7 +1,6 @@
 import React from 'react';
 // import { FaProjectDiagram } from 'react-icons/fa';
 import Card from '../card/Card';
-import '../../styles/style.css';
 
 const project1 = {
   id: "project1",

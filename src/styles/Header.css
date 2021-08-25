@@ -1,0 +1,28 @@
+header {
+  background-color: var(--dark-grey);
+  position: sticky;
+  top: 0px;
+}
+
+a.navbar-brand {
+  font-size: 2rem;
+  background-color: var(--light-tuiquoise);
+  margin-left: var(--navbar-margin);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: var(--navbar-padding);
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--light-tuiquoise);
+}
+
+.nav-link:hover, .nav-link.active {
+  font-size: 1.3rem;
+  background: var(--light-tuiquoise);
+  color: var(--dark-grey);
+}
