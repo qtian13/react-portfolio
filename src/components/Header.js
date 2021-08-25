@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-function HeaderBlock() {
+function HeaderBlock({ currentPage, handlePageChange }) {
   return (
     <div>
-      <Navbar />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   )
 }
