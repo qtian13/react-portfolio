@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
@@ -21,6 +21,10 @@ function MainBlock() {
     }
     return <Resume />;
   };
+
+  useEffect(() => {
+    document.title = `${currentPage}`;
+  });
 
   const handlePageChange = (page) => setCurrentPage(page);
 
