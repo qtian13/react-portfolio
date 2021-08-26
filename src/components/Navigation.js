@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-sm">
       <ul className="navbar-nav mr-auto">
@@ -29,4 +29,4 @@ function Navbar({ currentPage, handlePageChange }) {
   );
 }
 
-export default Navbar;
+export default Navigation;

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import Navbar from './Navbar';
+import Navigation from './Navigation';
 
 function HeaderBlock({ currentPage, handlePageChange }) {
   return (
@@ -9,7 +9,7 @@ function HeaderBlock({ currentPage, handlePageChange }) {
         <a href="/react-portfolio">Qiushuang Tian</a>
       </div>
       <div className="navbar-container">
-        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
     </header>
   )
