@@ -2,17 +2,20 @@ header {
   background-color: var(--dark-grey);
   position: sticky;
   top: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
-a.navbar-brand {
+header .header-title-container a {
   font-size: 2rem;
   background-color: var(--light-tuiquoise);
-  margin-left: var(--navbar-margin);
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding-right: 20px;
-  padding-left: var(--navbar-padding);
+  padding-left: 100px;
   font-weight: 700;
+}
+
+.navbar {
+  padding: 0 var(--navbar-padding);
 }
 
 .nav-link {
@@ -21,8 +24,13 @@ a.navbar-brand {
   color: var(--light-tuiquoise);
 }
 
-.nav-link:hover, .nav-link.active {
-  font-size: 1.3rem;
+.nav-link.active {
   background: var(--light-tuiquoise);
   color: var(--dark-grey);
 }
+
+.nav-link:hover, .nav-link.active:hover {
+  background: var(--light-tuiquoise);
+  color: var(--medium-grey);
+}
+

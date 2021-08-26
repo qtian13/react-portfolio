@@ -8,3 +8,8 @@ form .btn {
   color: var(--medium-grey);
   background: var(--light-tuiquoise)
 }
+
+form .btn:hover {
+  text-shadow: 1px 1px 1px var(--light-grey);
+  border: 2px solid var(--light-grey);
+}

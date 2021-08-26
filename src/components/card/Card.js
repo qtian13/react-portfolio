@@ -5,7 +5,7 @@ import '../../styles/Card.css';
 const Card = ({ name, description, skills, deployed, github, demo }) => {
   return (
     <div
-      className="project"
+      className="project m-auto"
       style={{
         "background-image": `url("${demo}"), linear-gradient(rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2))`,
         "background-size": "100% 100%",

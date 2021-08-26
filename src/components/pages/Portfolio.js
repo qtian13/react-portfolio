@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FaProjectDiagram } from 'react-icons/fa';
 import Card from '../card/Card';
 
 const project1 = {

@@ -1,11 +1,5 @@
-h3, h4 {
-  color: var(--medium-grey);
-  margin-bottom: 10px;
-}
-
-h3 a {
-  color: var(--dark-grey);
-  text-decoration: none;
+h3 a:hover {
+  text-shadow: 2px 2px 5px var(--light-grey);
 }
 
 .skills-section li {
