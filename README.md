@@ -1,7 +1,7 @@
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 # React Portfolio
 
-This project is to create an attractive and functional portfolio with React for self introduction and projects display.
+This project is to create an attractive and functional single-page application portfolio with React for self introduction and projects display.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,51 +18,41 @@ git clone https://github.com/qtian13/react-portfolio.git
 ```
 
 ## Built With
+* [CSS](https://www.w3schools.com/css/)
+* [bootstraps](https://getbootstrap.com/)
 * [JavaScript](https://www.javascript.com/)
 * [NodeJS](https://nodejs.org/en/)
 * [npm](https://www.npmjs.com/)
 * [React](https://reactjs.org/)
 
+
 ## Features
+* When user load the portfolio, they are presented with a page containing a header, a section for content, and a footer
+* When user load the portfolio the first time, the About Me title and section are selected by default
+* When user view the header, they are presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+* When user view the navigation titles, they are presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+* When user click on a navigation title, they are presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+* When user are presented with the About Me section, they see a recent photo of the developer and a short bio about them
+* When user are presented with the Portfolio section, they see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+* When user are presented with the Contact section, they see a contact form with fields for a name, an email address, and a message
+* When user move their cursor out of one of the form fields without entering text, they receive a notification that this field is required
+* When user enter text into the email address field, they receive a notification if I have entered an invalid email address
+* When user are presented with the Resume section, they see a link to a downloadable resume and a list of the developer’s proficiencies
+* When user view the footer, they are presented with icon links to the developer’s GitHub and LinkedIn profiles, and their profile on Stack Overflow
 
-* When user is on Budget App without an internet connection and inputs a withdrawal or deposit, that will be shown on the page, and added to their transaction history when their connection is back online.
-  <img src="./public/assets/images/demo.gif" alt="demo-gif" width="500">
-# Create My Portfolio
-This project is to create an attractive and functional portfolio for self introduction and projects display.
+<!-- ## Demo GIF -->
+<!-- ![demo gif](assets/images/demo.gif) -->
 
-## Getting Started
-```console
-git clone git@github.com:qtian13/portfolioUpdate.git
-```
+## Deployed Page
+https://qtian13.github.io/react-portfolio/
 
-## Built With
-
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-## Description of the Portfolio Homepage
-1. The portfolio homepage consists of 3 parts:  the main header, the background image and the block of self display.
-1. The navigation bar in the header contains links to scoll to each section of main content and to open resume in a new tab.  
-1. The main content includes self introduction, work and contact link.
-1. The section work shows titled images of the application. The first one is larger than the others. The opacity of a background image change when a mouse hover over it. The corresponding application will be deployed when clicked.
-1. This portfolio is screen responsive:
-    * On the computer screen (screen width no less than 992px) the header and navigation bar share the same line. The block title is on the left of its content.
-    * On the tablet screen (screen width less than 992px while no less than 768) the navigation bar creates new line for itself. The block title and block description is stacked vertically.
-    * On the mobile screen (screen width less than 768px) The navigation bar change to vertical and the titles of self display sections is centered.
-
-## Demo GIF
-![demo gif](assets/images/demo.gif)
-
-## Page URL
-https://qtian13.github.io/portfolioUpdate/
-
-## Page Screen Shot with Different Screen Width
-![fit desktop screen](assets/images/desktopScreen.png)
+<!-- ## Page Screen Shot with Different Screen Width -->
+<!-- ![fit desktop screen](assets/images/desktopScreen.png)
 
 <img src="assets/images/tabletScreen.png" alt="fit tablet screen" width="500">
 
 
-<img src="assets/images/mobileScreen.png" alt="fit mobile screen" width="200">
+<img src="assets/images/mobileScreen.png" alt="fit mobile screen" width="200"> -->
 
 
 ## Author
@@ -70,6 +60,11 @@ Qiushuang Tian
 - [Link to Portfolio Site](https://qtian13.github.io/react-portfolio/)
 - [Link to Github](https://github.com/qtian13)
 - [Link to LinkedIn](https://www.linkedin.com/in/qiushuang-tian-a9754248/)
+
+## Questions
+Please reach me out with additional questions!
+
+Emails: qiushuang.tian@gmail.com
 
 ## Acknowledgments
 - [Berkeley Coding Boot Camp](https://bootcamp.berkeley.edu/coding/) provided mock up gif
