@@ -1,0 +1,19 @@
+.hide {
+  display: none;
+}
+
+.project:hover .hide {
+  display: flex;
+  background-color: var(--light-tuiquoise-background);
+  height: 100%;
+}
+
+.app-link {
+  font-size: 1.8rem;
+}
+
+.project-description, .project-skills {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 80%;
+}
