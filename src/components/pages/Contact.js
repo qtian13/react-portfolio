@@ -28,14 +28,19 @@ function Contact() {
     // Getting the name, email and message of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
+    const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'email' && !validateEmail(email)) {
-      setErrorMessage('Sorry, you entered an invalid email');
-    } else if (inputType === 'viewerName' && !validateInput(viewerName)) {
-      setErrorMessage('Sorry, a valid name is required');
-    } else if (inputType === 'message' && !validateInput(message)){
-      setErrorMessage('Sorry, a valid message is required');
+    if (inputType === 'email') {
+      if (!validateInput(inputValue)) {
+        setErrorMessage('Sorry, please enter your email');
+      } else if (!validateEmail(inputValue)) {
+        setErrorMessage('Sorry, you entered an invalid email');
+      }
+    } else if (inputType === 'viewerName' && !validateInput(inputValue)) {
+      setErrorMessage('Sorry, please enter your name');
+    } else if (inputType === 'message' && !validateInput(inputValue)){
+      setErrorMessage('Sorry, please enter a message');
     } else {
       setErrorMessage('');
     }
@@ -45,20 +50,21 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     if (!validateInput(viewerName)) {
-      setErrorMessage('Sorry, a valid name is required');
+      setErrorMessage('Sorry, please enter your name');
+    } else if (!validateInput(email)) {
+      setErrorMessage('Sorry, please enter your email');
     } else if (!validateEmail(email)) {
       setErrorMessage('Sorry, you entered an invalid email');
     } else if (!validateInput(message)){
-      setErrorMessage('Sorry, a valid message is required');
+      setErrorMessage('Sorry, please enter a message');
     } else {
+      // If everything goes according to plan, we want to clear out the input after a successful registration.
       setErrorMessage('');
-    }
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    if (errorMessage === '') {
       setViewerName('');
       setEmail('');
       setMessage('');
     }
+    
   };
   return (
     <main className="container mt-5">
