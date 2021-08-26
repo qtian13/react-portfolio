@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaGithub, FaPlay } from 'react-icons/fa';
-import '../../styles/Card.css';
+import '../../styles/Project.css';
 
-const Card = ({ name, description, skills, deployed, github, demo }) => {
+const Project = ({ name, description, skills, deployed, github, demo }) => {
   return (
     <div
       className="project m-auto"
@@ -31,4 +31,4 @@ const Card = ({ name, description, skills, deployed, github, demo }) => {
   )
 }
 
-export default Card;
+export default Project;

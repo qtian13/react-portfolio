@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../card/Card';
+import Project from '../project/Project';
 
 const project1 = {
   id: "project1",
@@ -79,7 +79,7 @@ function Portfolio() {
       <div class="row block-descr block-descr-box project-display">
         {projects.map((project) => (
           <div className="col-12 col-md-6 my-3 px-2" style={{"height": "300px" }}>
-            <Card id={project.id} name={project.name} skills={project.skills} description={project.description} deployed={project.deployed} github={project.github} demo={project.demo}/>
+            <Project id={project.id} name={project.name} skills={project.skills} description={project.description} deployed={project.deployed} github={project.github} demo={project.demo}/>
           </div>
         ))}
       </div>
