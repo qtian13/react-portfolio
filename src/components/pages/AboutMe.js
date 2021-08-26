@@ -15,6 +15,7 @@ function AboutMe() {
       <p className="mx-auto">
         If you consider me as a potential software developer candidate or have any advice, please do not hesitate to contact me! 
       </p>
+      <div className="bottom-place-holder"></div>
     </main>
   )
 }

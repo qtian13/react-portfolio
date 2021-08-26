@@ -51,6 +51,7 @@ function Resume() {
           </ul>
         </div>
       </div>
+      <div className="bottom-place-holder"></div>
     </main>
   )
 }

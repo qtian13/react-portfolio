@@ -85,7 +85,7 @@ function Contact() {
         )}
         <button type="submit" onClick={handleFormSubmit} className="btn d-block mx-auto">Submit</button>
       </form>
-      
+      <div className="bottom-place-holder"></div>
     </main>
   )
 }
