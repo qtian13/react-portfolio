@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-md">
+    <nav className="navbar navbar-expand-sm">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
           <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}>

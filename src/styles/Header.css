@@ -2,20 +2,28 @@ header {
   background-color: var(--dark-grey);
   position: sticky;
   top: 0px;
-  display: flex;
-  justify-content: space-between;
+  padding-top: 10px;
 }
 
 header .header-title-container a {
+  display: block;
+  text-align: center;
   font-size: 2rem;
   background-color: var(--light-tuiquoise);
-  padding-right: 20px;
-  padding-left: 100px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .navbar {
-  padding: 0 var(--navbar-padding);
+  padding: 0;
+}
+
+.navbar-expand-sm ul{
+  width: 100%;
+}
+
+.navbar-expand-sm ul li{
+  flex-grow: 1;
+  text-align: center;
 }
 
 .nav-link {
@@ -34,3 +42,26 @@ header .header-title-container a {
   color: var(--medium-grey);
 }
 
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding-left: var(--navbar-padding);
+    padding-right: var(--navbar-padding);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .header-title-container a {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 100px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
