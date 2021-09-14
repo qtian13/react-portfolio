@@ -3,16 +3,26 @@ import Project from '../project/Project';
 
 const project1 = {
   id: "project1",
+  name: "Space Escape",
+  skills: "React/CSS/JavaScript/PWT/MySQL/",
+  description: "A game with space background",
+  deployed: "https://space-escape.herokuapp.com/",
+  github: "https://github.com/qtian13/space-escape",
+  demo: "./assets/images/spaceEscape.png"
+};
+
+const project2 = {
+  id: "project2",
   name: "CLOVE",
-  skills: "NodeJS/Express/Sequelize/Heroku",
+  skills: "HTML/CSS/Express/Sequelize/Heroku",
   description: "Neighborhood grocery buy and sell",
   deployed: "https://still-reef-24172.herokuapp.com/",
   github: "https://github.com/qtian13/CLOVE",
   demo: "./assets/images/clove.png"
 };
 
-const project2 = {
-  id: "project2",
+const project3 = {
+  id: "project3",
   name: "Feed Your Boredom",
   skills: "HTML/CSS/Bulma/JavaScript/jQuery",
   description: "Help user decide what to do and where to go",
@@ -21,8 +31,8 @@ const project2 = {
   demo: "./assets/images/feedYourBoredom.png"
 };
 
-const project3 = {
-  id: "project3",
+const project4 = {
+  id: "project4",
   name: "Workout Tracker",
   skills: "CSS/JavaScript/NodeJS/MongoDB/Heroku",
   description: "Record and analysis daily workout",
@@ -31,8 +41,8 @@ const project3 = {
   demo: "./assets/images/workoutTracker.png"
 };
 
-const project4 = {
-  id: "project4",
+const project5 = {
+  id: "project5",
   name: "Weather Dashboard",
   skills: "HTML/CSS/Bootstrap/JavaScript/jQuery",
   description: "World weather at a glance",
@@ -41,24 +51,14 @@ const project4 = {
   demo: "./assets/images/weatherDashboard.png"
 };
 
-const project5 = {
-  id: "project5",
+const project6 = {
+  id: "project6",
   name: "Code Quiz",
   skills: "HTML/CSS/JavaScript",
   description: "Timed quiz to test coding knowledge",
   deployed: "https://still-reef-24172.herokuapp.com/",
   github: "https://github.com/qtian13/code-quiz",
   demo: "./assets/images/codeQuiz.png"
-};
-
-const project6 = {
-  id: "project6",
-  name: "Password Generator",
-  skills: "HTML/CSS",
-  description: "Generate customized password",
-  deployed: "https://qtian13.github.io/password-generator/",
-  github: "https://github.com/qtian13/password-generator",
-  demo: "./assets/images/passwordGenerator.png"
 };
 
 const projects = [
