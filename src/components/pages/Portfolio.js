@@ -56,7 +56,7 @@ const project6 = {
   name: "Code Quiz",
   skills: "HTML/CSS/JavaScript",
   description: "Timed quiz to test coding knowledge",
-  deployed: "https://still-reef-24172.herokuapp.com/",
+  deployed: "https://qtian13.github.io/code-quiz/",
   github: "https://github.com/qtian13/code-quiz",
   demo: "./assets/images/codeQuiz.png"
 };
