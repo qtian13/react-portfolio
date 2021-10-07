@@ -31,7 +31,7 @@ function Resume() {
         Resume
       </h2>
       <h3 className="d-6 text-center mx-auto">
-        View and download my <a target="_blank" href="./assets/files/QiushuangTian.pdf"><FaRegFilePdf /> resume</a>
+        View and download my <a target="_blank" href="./assets/files/QiushuangTian_Resume.pdf"><FaRegFilePdf /> resume</a>
       </h3>
       <div className="d-flex justify-content-around">
         <div className="skills-section">
