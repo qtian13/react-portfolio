@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 function MainBlock() {
@@ -18,9 +18,9 @@ function MainBlock() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
     return <Resume />;
   };
 

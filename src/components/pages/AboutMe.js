@@ -7,13 +7,19 @@ function AboutMe() {
       <h2>About Me</h2>
       <img id="profile-photo" className="d-block mx-auto" src="./assets/images/profile.jpg" alt="profile" />
       <p className="about-description mx-auto">
-        Hi there! Welcome to my portfolio page! My name is Qiushuang Tian. I am a student of UC Berkeley Extention, Coding Boot Camp. I have so much fun working on different projects together with my team and do learn a lot on all kinds of web development skills! 
+        Hi there! Welcome to my portfolio page!
       </p>
       <p className="about-description mx-auto">
-        This page presents several projects I recently finished. You can check out deployed page and Github link with a simple click!
+        My name is Qiushuang Tian. I just graduated recently from UC Berkeley Extention, Coding Boot Camp with average academic of A+! 
       </p>
       <p className="about-description mx-auto">
-        If you consider me as a potential software developer candidate or have any advice, please do not hesitate to contact me! 
+        I have so much fun working on different projects by myself or together with my team during the course. They improve my ability on all kinds of web development skills like HTML/CSS/Javascript. I also develope full-stack applications in MVC(Model-View-Controller) structure with APIs and database like MySQL/Sequelize and MongoDB/Mongoose.
+      </p>
+      <p className="about-description mx-auto">
+        The portfolio page presents several among them. You can check out deployed page and Github link with a simple click!
+      </p>
+      <p className="about-description mx-auto">
+        If you consider me as a potential software developer candidate or have any advice, please do not hesitate to click the icons below to contact me! 
       </p>
       <div className="bottom-place-holder"></div>
     </main>

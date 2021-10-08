@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaStackOverflow, FaCopyright } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaCopyright } from 'react-icons/fa';
+import { HiOutlineMail, HiOutlinePhone } from 'react-icons/hi';
 import '../styles/Footer.css';
 
 function FooterBlock() {
@@ -13,8 +14,11 @@ function FooterBlock() {
           <a className="d-inline-block mx-4 display-6" rel="noreferrer" target="_blank" href="https://github.com/qtian13">
             <FaGithub />
           </a>
-          <a className="d-inline-block mx-4 display-6" rel="noreferrer" target="_blank" href="https://stackoverflow.com/users/16220053/qtian13?tab=profile">
-            <FaStackOverflow />
+          <a className="d-inline-block mx-4 display-6" rel="noreferrer" target="_blank" href="mailto:qiushuang.tian@gmail.com">
+            <HiOutlineMail />
+          </a>
+          <a className="d-inline-block mx-4 display-6" rel="noreferrer" target="_blank" href="tel:7346046389">
+            <HiOutlinePhone />
           </a>
           
         </div>
