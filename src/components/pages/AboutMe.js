@@ -19,7 +19,7 @@ function AboutMe() {
         The portfolio page presents several among them. You can check out deployed page and Github link with a simple click!
       </p>
       <p className="about-description mx-auto">
-        If you consider me as a potential software developer candidate or have any advice, please do not hesitate to click the icons below to contact me! 
+        If you consider me as a potential software developer candidate or have any advice, please email me at qiushuang.tian@gmail.com or click icons below to contact me!
       </p>
       <div className="bottom-place-holder"></div>
     </main>
